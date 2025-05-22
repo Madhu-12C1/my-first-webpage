@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>All-in-One Web Project</title>
+  <style>
+    body {
+      font-family: Times 'Times New Roman', Times, serif;
+      margin: 0;
+      background: Skyblue;
+    }
+
+    header, section, .todo-section, form {
+      background: white;
+      margin: 20px auto;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 800px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    h1, h2 {
+      text-align: center;
+      color: #333;
+    }
+
+    p, a {
+      color: #555;
+    }
+
+    img {
+      display: block;
+      margin: 0 auto;
+      max-width: 100%;
+      border-radius: 50px;
+    }
+
+    /* Contact form styles */
+    form input, form textarea {
+      width: 100%;
+      margin-bottom: 10px;
+      padding: 10px;
+    }
+
+    button {
+      padding: 10px 15px;
+      background-color: skyblue;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    /* Responsive Layout */
+    .nav {
+      display: flex;
+      background: skyblue;
+      color: green;
+      padding: 10px;
+      justify-content: center;
+    }
+
+    .nav div {
+      margin: 0 15px;
+    }
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    .grid-item {
+      background: #eee;
+      padding: 20px;
+      text-align: center;
+    }
+
+    /* To-do styles */
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      padding: 10px;
+      background: #eee;
+      margin-bottom: 5px;
+      cursor: pointer;
+    }
+
+    li:hover {
+      background: #ddd;
+    }
+
+    @media (max-width: 600px) {
+      .nav {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Section 1: Welcome Page -->
+  <header>
+    <h1>Welcome to My Webpage</h1>
+    <p><p style="font-size: 24px; text-align: center;">This is my Webpage</p>
+    <img src="myphoto.jpg" alt="My Photo" width="500">
+    <p><p style="font-size: 20px;> <a href="Visit My Site" target="_blank">Visit My Site</a> for more!</p>
+    <button onclick="alert('Hello! You clicked the button!')">Click Me</button>
+  </header>
+
+  <!-- Section 2: Contact Form -->
+  <section>
+    </section>
